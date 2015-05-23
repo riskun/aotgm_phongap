@@ -1,1 +1,20 @@
-index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Device Ready Example</title>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+	    function onLoad() {
+	        document.addEventListener("deviceready", onDeviceReady, false);
+	    }
+
+	    function onDeviceReady() {
+	    	window.location.href = "http://ckportfolio.com"
+	    }
+
+    </script>
+  </head>
+  <body onload="onLoad()">
+  </body>
+</html>

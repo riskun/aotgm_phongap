@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.aotg.aotgm"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>AOTGM</name>
+
+    <description>
+        The New AOTG mobile application.
+    </description>
+
+    <author href="http://ckportfolio.com" email="riskun@gmail.com">
+        Chris Kim
+    </author>
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.12" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+    <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
+
+    <access origin="*" />
+
+</widget>
